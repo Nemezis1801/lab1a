@@ -1,0 +1,119 @@
+  <title> Najlepsze filmy! </title>
+
+  <link rel="stylesheet" href=" [nazwa_arkusza_stylow.css] " type="text/css" />
+	
+</head>
+<body>
+
+<h1>Najlepsze filmy!</h1>
+
+<p>O to przed Tobą spis moich ulubionych filmów!</p>
+
+<ul>
+	<li><img src="wojownik.jpg" alt="" width="100" height="100" /></li>
+  <li><a href="http://www.filmweb.pl/film/Wojownik-2011-499338">Wojownik</a></li>
+	<li>Forrest Gump</li>
+  <li>Deadpool</li>
+  <li>Piksele</li>
+</ul>
+
+
+
+<h2>Najlepsze seriale!</h2>
+
+<p>O to przed Tobą spis moich ulubionych seriali!</p>
+
+<ul>
+  <li><img src="flash.jpg" alt="" width="100" height="100" /></li>
+	<li><a href="http://www.filmweb.pl/serial/Flash-2014-694518">Flash</a></li>
+  <li>Arrow</li>
+  <li>Lucifer</li>
+  <li>Marvel Agents of SHIELD</li>
+</ul>
+
+
+<h3>Najlepsze anime!</h3>
+
+<p>O to przed Tobą spis moich ulubionych anime!</p>
+
+<ul>
+	<li><img src="dbz.jpg" alt="" width="100" height="100" /></li>
+  <li><a href="http://www.filmweb.pl/serial/Dragon+Ball+Z-1989-94339">Dragon Ball Z</a></li>
+  <li>Dragon Ball Super</li>
+  <li>Naruto</li>
+  <li>Pokemon</li>
+</ul>
+
+<table>
+
+<tr>
+	<td>Nazwa kategorii</td><td>Najlepsze spośród kategorii</td>
+</tr>
+
+<tr>
+	<td>Filmy</td><td>Wojownik</td>
+</tr>
+
+<tr>
+	<td>Seriale</td><td>Flash</td>
+</tr>
+
+<tr>
+	<td>Anime</td><td>Dragon Ball Z</td>
+</tr>
+
+</table>
+
+<h4>Prześlij swoją listę ulubionych filmów,seriali, anime, a umieścimy je u nas na stronie ! </h4>
+
+
+
+<form action="odbior.php" method="post">
+
+<p>Najlepszy film: <br />
+<select id="film">
+	<option>SF</option>
+	<option>Horror</option>
+	<option>Komedia</option>
+	<option>Akcja</option>
+</select>
+Nazwa filmu<input id="nazwafilmu" /></p>
+
+<p>Najlepszy serial: <br />
+<select id="serial">
+	<option>SF</option>
+	<option>Horror</option>
+	<option>Komedia</option>
+	<option>Akcja</option>
+</select>
+Nazwa filmu<input id="nazwaserialu" /></p>
+
+<p>Najlepszy anime: <br />
+<select id="anime">
+	<option>dramat</option>
+	<option>Horror</option>
+	<option>Komedia</option>
+	<option>Akcja</option>
+</select>
+Nazwa filmu<input id="nazwaanime" /></p>
+
+
+
+<h4>Podaj swoje dane, by można było użyć ich jako podpisu</h4>
+
+<p>Podaj imię <input id="imie" /> Podaj typ miejscowości <select id="miejscowosc"><option>Wieś</option><option>Miasto</option></select> <br/>
+Podaj swoje najlepsze kategorię <br />
+<input type="checkbox" name="kategoria[]" value="sf" /> SF <br />
+<input type="checkbox" name="kategoria[]" value="akcja" /> Akcja <br />
+<input type="checkbox" name="kategoria[]" value="komedia" /> Komedia <br />
+Podaj płeć <br />
+ <input type="radio" id="k" value="kobieta" /> Kobieta <br />
+ <input type="radio" id="m" value="mężczyzna" /> Mężczyzna</p>
+ 
+ <p><input type="submit" value="Wyślij" /> <input type="reset" value="Reset" /></p>
+
+</form>
+
+
+</body>
+</html>
