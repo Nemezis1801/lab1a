@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html lang="pl">
+
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	
+	<meta name="descritpion" content="Firma zajmująca się tynkami, elewacjami, dociepleniami"/>
+	<meta name="keywords" content="tynki, docieplenia, elewacje, caparol, bolix, system dociepleń, solidna firma" />
+	<meta name="Author" content=" Mariusz Schmidt " />
+	<title>DOMPOL-ELEWACJE.PL</title>
+	
+	<!--<link rel="stylesheet" href="[nazwa_arkusza_stylow.css]" type="text/css" /> -->
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
+
+	 <link rel="stylesheet" href=" style.css " type="text/css" />
+	<link rel="stylesheet" href=" css/fontello.css " type="text/css" />
+	
+	<link rel="Shortcut icon" href="img/logo2.png" />
+	
+
+</head>
+<body>
+
+<div class="kontener">
+
+	<div class="naglowek">
+
+	
+		<div class="logo">
+			<img src="img/logo2.png" alt="" style=" width: 50%" />
+			
+			
+		</div>
+	
+	</div>
+	
+	<div class="nav">
+		<ol>
+				<li><a href="index.html">Strona główna</a></li>
+				<li><a href="onas.html">O Nas</a></li>
+				<li><a href="oferta.html">Oferta</a></li>
+				<li><a href="referencje.html">Referencje</a></li>
+				<li><a href="partnerzy.html">Partnerzy</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+		</ol>
+
+	</div>
+	
+	
+	
+	<div class="zawartosc" >
+	
+					<h1>Witamy na naszej stronie !</h1>
+				<p>	Systemy dociepleń dostępne w naszej firmie są doskonałym sposobem pozwalającym na ocieplenie zarówno starych jak i nowych budynków. 
+				System ten stanowi układ warstwowy składający się z wysezonowanych płyt styropianowych lub też płyt z wełny mineralnej, warstwy zbrojonej wykonanej z zaprawy klejowej i tkaniny szklanej oraz wyprawy tynkarskiej. </p>
+
+				<p>	Oprócz walorów izolacyjnych systemów oferujemy Państwu również szeroką paletę kolorów i faktur tynków. 
+				</p>	
+				<div class="tynki"><img src="img/p11.jpg" alt="tynki" />	</div>
+
+				<p>Od kilku lat prowadzimy również prace budowlane i elektryczne na stacjach bazowych telefonii komórkowych, głównie T-Mobile Polska S.A. i Polkomtel Sp. z o.o. a także montaż konstrukcji stalowych na wysokości.</p>
+
+				<div id="img">
+				<img class="img" src="img/t1.jpg" alt="t-mobile" />
+				<img class="img" src="img/t2.jpg" alt="t-mobile" />
+				<img class="img" src="img/t3.jpg" alt="t-mobile" />
+				<img class="img" src="img/t4.jpg" alt="t-mobile" />
+				<img class="img" src="img/t5.jpg" alt="t-mobile" />
+				<img class="img" src="img/t6.jpg" alt="t-mobile" />
+				<img class="img" src="img/t7.jpg" alt="t-mobile" />
+				<img class="img" src="img/t8.jpg" alt="t-mobile" />
+				<img class="img" src="img/t9.jpg" alt="t-mobile" />
+				<img class="img" src="img/t10.jpg" alt="t-mobile" />
+				
+				</div>
+
+
+
+			
+
+
+
+	
+
+	</div>
+	
+	
+	
+	<div class="media">
+		<div class="mediadiv">
+			<a href="https://www.facebook.com/">
+				<div class="fb">
+					<i class="icon-facebook"></i>
+				</div>
+			</a>
+			<a href="https://www.youtube.com/">
+				<div class="yt">
+					<i class="icon-youtube"></i>
+				</div>
+			</a>
+			<a href="https://www.twitter.com/">
+				<div class="tw">
+					<i class="icon-twitter"></i>
+				</div>
+			</a>
+			<a href="https://plus.google.com/">
+				<div class="gplus">
+					<i class="icon-gplus"></i>
+				</div>
+			</a>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	
+	<div class="stopka">
+		Dompol-elewacje.pl &copy; 2016<strong> Piotr Danilczyk</strong> Gościcino ul. <strong>Wiejska 2</strong>. All rigths reserved. Created by <strong>Mariusz Schmidt.</strong> 
+	</div>
+		
+
+</div>
+
+<script src="jquery-1.12.2.min.js"></script>
+
+<script>
+
+ $(document).ready(function() {
+   var stickyNavTop = $('.nav').offset().top;
+
+   var stickyNav = function(){
+   var scrollTop = $(window).scrollTop();
+
+   if (scrollTop > stickyNavTop) { 
+      $('.nav').addClass('sticky');
+   } else {
+      $('.nav').removeClass('sticky');
+    }
+   };
+
+   stickyNav();
+
+   $(window).scroll(function() {
+      stickyNav();
+   });
+   });
+
+ </script> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77515739-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
