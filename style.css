@@ -16,3 +16,10 @@ body
 	padding-top: 15px;
 	color: white;
 	text-align: center;
+
+	
+	@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
